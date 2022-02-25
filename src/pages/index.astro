@@ -6,7 +6,7 @@
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
-let title = "Patrick Hill Design";
+let title = "Test Title";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -20,7 +20,9 @@ let title = "Patrick Hill Design";
     <link rel="stylesheet" href={Astro.resolve("../styles/global.css")} />
   </head>
 
-  <body class="bg-gray-800 grid place-items-center h-screen">
-    <h1 class="text-white text-5xl">Hello World</h1>
+  <body class="bg-gray-800 p-16">
+    <div class="bg-gray-300 rounded-xl p-16">
+      <h1 class="text-5xl font-thin">Hello World</h1>
+    </div>
   </body>
 </html>
